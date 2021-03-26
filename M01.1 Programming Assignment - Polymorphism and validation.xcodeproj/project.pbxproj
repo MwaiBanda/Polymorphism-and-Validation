@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA137995260CE53D0066AF56 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA137994260CE53D0066AF56 /* main.cpp */; };
+		CA13799E260CE5990066AF56 /* romanType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA13799C260CE5990066AF56 /* romanType.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CA137991260CE53D0066AF56 /* M01.1 Programming Assignment - Polymorphism and validation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "M01.1 Programming Assignment - Polymorphism and validation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA137994260CE53D0066AF56 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CA13799C260CE5990066AF56 /* romanType.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = romanType.cpp; sourceTree = "<group>"; };
+		CA13799D260CE5990066AF56 /* romanType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = romanType.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CA137994260CE53D0066AF56 /* main.cpp */,
+				CA13799C260CE5990066AF56 /* romanType.cpp */,
+				CA13799D260CE5990066AF56 /* romanType.hpp */,
 			);
 			path = "M01.1 Programming Assignment - Polymorphism and validation";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA137995260CE53D0066AF56 /* main.cpp in Sources */,
+				CA13799E260CE5990066AF56 /* romanType.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
